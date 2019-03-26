@@ -6,6 +6,8 @@
 	<persistence-unit name="jpseclipselink">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>jpseclipselink.demo.Person</class>
+        <class>jpseclipselink.demo.TA</class>
+        <class>jpseclipselink.demo.TB</class>
         <properties>
             <property name="eclipselink.ddl-generation" value="create-tables" />
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/mystu"/>         
